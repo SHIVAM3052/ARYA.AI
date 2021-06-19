@@ -2,9 +2,11 @@
 **Binary Classification**
 
 **1. Dataset contain 2 CSV file.**
+
 1.1 Training CSV file : Consist of 57 features and Y as label in (0/1)
 
 1.2 Test CSV file : Consist of 57 features only 
+
 
 
 **2. Data visualisation using t-sne**
@@ -15,4 +17,17 @@ In the above t-sne graph, we can visualize feature distributions of all data poi
 
 2.1 Use feature engineering method to remove overlap features but it didn't work out.
 
-2.2 K-NN and SVM model able to give less accuracy due to clusters overlapping
+2.2 K-NN and SVM model able to give less accuracy due to clusters overlapping.
+
+
+**3.Feature Selection method**
+
+Remove less redundant features to overcome cluster overlapping.
+
+**3.1 SelectKbest Method**
+
+Select top 10 features
+
+![SelectKBest graph](https://user-images.githubusercontent.com/60669591/122646946-715d0b00-d13f-11eb-88e3-9464514fa713.png)
+
+ 
