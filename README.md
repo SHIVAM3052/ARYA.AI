@@ -104,7 +104,9 @@ c. Reduces Training Time: Less data means that algorithms train faster.
 
 ![simple ANN](https://user-images.githubusercontent.com/60669591/122647733-4aa0d380-d143-11eb-900c-372576d7aad8.jpg)
 
-6.3 Misclassification Rate : (F.P + F.N) / (T.P + F.P + T.N + F.N) = (29 + 25) / ( 573 + 29 + 351 + 325 ) = 0.055
+6.3 Misclassification Rate of FCN with StratifiedKfold : (F.P + F.N) / (T.P + F.P + T.N + F.N) = (29 + 25) / ( 573 + 29 + 351 + 25 ) = 0.055
+
+6.4 Misclassification Rate of FCN : (F.P + F.N) / (T.P + F.P + T.N + F.N) = (26 + 25) / ( 576 + 26 + 351 + 25 ) = 0.054
 
 **7. In github repository, there are 3 folders**
 
