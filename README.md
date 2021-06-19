@@ -62,9 +62,21 @@ Remove less redundant features to overcome cluster overlapping.
 
 6.2 we can compare the results with theirs images.
 
+![ANN2](https://user-images.githubusercontent.com/60669591/122647924-4d4ff880-d144-11eb-9017-1453dc55da8a.jpg)
+
 ![simple ANN k-fold](https://user-images.githubusercontent.com/60669591/122647730-470d4c80-d143-11eb-94a6-91691f5d1c44.jpg)
 
 ![simple ANN](https://user-images.githubusercontent.com/60669591/122647733-4aa0d380-d143-11eb-900c-372576d7aad8.jpg)
+
+7. In github repository, there are 3 folders
+
+7.1 CODE folder: Consist of train.py, eval.py, and CONFIG folder.
+
+7.1.1 CONFIG folder: Consist of train_config.json and inference_config.json files. We have changed to change the directory path of training_data, testing_data, saving and loading model from a directory and, Checkpoint directory to run train.py and eval.py file.
+
+7.2 MODEL folder: Consist of saved_model and Checkpoint directory.
+
+7.3 DATA folder: Consist of training_csv and test_csv file.
 
 
 
