@@ -20,14 +20,21 @@ In the above t-sne graph, we can visualize feature distributions of all data poi
 2.2 K-NN and SVM model able to give less accuracy due to clusters overlapping.
 
 
-**3.Feature Selection method**
+**4.Feature Selection method**
 
 Remove less redundant features to overcome cluster overlapping.
 
-**3.1 SelectKbest Method**
+**4.1 SelectKbest Method and using StratifiedKfold (n = 5)**
 
-Select top 10 features
+4.1.1 Select top 10 features and implemented on KNN and SVM model but it won't work out with good accuracy.
 
 ![SelectKBest graph](https://user-images.githubusercontent.com/60669591/122646946-715d0b00-d13f-11eb-88e3-9464514fa713.png)
+
+**4.2 Pearson correlation Method using StratifiedKfold (n = 5)**
+
+4.2.1 Select features having threshhold > 0.25 and implemented on KNN and SVM model but it won't work out with better accuracy.
+
+![Correlation graph](https://user-images.githubusercontent.com/60669591/122647217-bb92bc00-d140-11eb-93eb-2f0227d04cc4.png)
+
 
  
