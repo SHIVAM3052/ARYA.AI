@@ -48,8 +48,8 @@ if __name__ == '__main__':
     X_train, X_test, y_train, y_test = train_test_split(train_df1, y, random_state=42)
 
 #############################################################################
-#Simple ANN model for Binary Classification
-    print('Simple ANN model for Binary Classification')
+#Simple FCN model for Binary Classification
+    print('Simple FCN model for Binary Classification')
     model = Sequential()
     model.add(Dense(60, input_dim=57, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
@@ -75,8 +75,8 @@ if __name__ == '__main__':
     
 ###################################################################
 
-# Simple ANN model with StratifiedKfold 4:1 for Binary Classification
-    print('Simple ANN model with StratifiedKfold for Binary Classification')
+# Simple FCN model with StratifiedKfold 4:1 for Binary Classification
+    print('Simple FCN model with StratifiedKfold for Binary Classification')
     kfold = StratifiedKFold(n_splits=5, shuffle=True, random_state=47)    #COPY 
     cvscores = []
     for train, test in kfold.split(train_df, y):
