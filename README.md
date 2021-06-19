@@ -7,7 +7,7 @@
 1.2 Test CSV file : Consist of 57 features only 
 
 
-**2. Data visualisation using t-sne  **
+**2. Data visualisation using t-sne**
 
 ![tsne_graph](https://user-images.githubusercontent.com/60669591/122646518-2c37d980-d13d-11eb-91f9-bfb8ba22a916.png)
 
