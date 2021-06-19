@@ -1,2 +1,3 @@
-# ARYA.AI
-Binary Classification
+**# ARYA.AI**
+**Binary Classification
+**
