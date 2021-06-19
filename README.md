@@ -8,9 +8,13 @@
 1.2 Test CSV file : Consist of 57 features only 
 
 I had used four models for binary classifications 
+
 a. K-NN
+
 b. SVM
+
 c. Xg-Boost
+
 d. FCN
 
 **2. Data visualisation using t-sne**
@@ -43,13 +47,17 @@ Non-linear technique for dimensionality reduction that is particularly well suit
 It is used for feature selection/dimensionality reduction on sample sets, either to improve estimators’ accuracy scores or to boost their performance on very high-dimensional datasets.
 
 a. Reduces Overfitting: Less redundant data means less opportunity to make decisions based on noise.
+
 b. Improves Accuracy: Less misleading data means modeling accuracy improves.
+
 c. Reduces Training Time: Less data means that algorithms train faster.
 
 **4.1 SelectKbest Method and using StratifiedKfold (n = 5)**
 
 4.1.1 f_classif: I have used only for categorical targets and based on the Analysis of Variance (ANOVA) statistical test.
+
 4.1.2 Select top 10 features.  
+
 4.1.3 Apply StratifiedKfold (n = 5) shuffles your data, after that splits the data into n_splits parts and Done. Now, it will use each part as a test set.I had implemented it on       KNN and SVM and trained our model but it won't work out with good accuracy.
 
 ![SelectKBest graph1](https://user-images.githubusercontent.com/60669591/122656566-498a9900-d179-11eb-962d-34fda3588cd7.png)
@@ -57,7 +65,9 @@ c. Reduces Training Time: Less data means that algorithms train faster.
 **4.2 Pearson correlation Method using StratifiedKfold (n = 5)**
 
 4.2.1 I thought to check correlation between features and used Pearson correlation Method using StratifiedKfold (n = 5)
+
 4.2.1 Select features having threshhold > 0.25 and implemented on KNN and SVM model. It yields better result as compared to SelectKbest method but it won't work out with         better accuracy.
+
 4.2.3 In below chart, diagonals are all 1/dark green because those squares are correlating each variable to itself (so it's a perfect correlation). For the rest the larger the         number and darker the color the higher the correlation between the two variables.
 
 ![Correlation graph](https://user-images.githubusercontent.com/60669591/122647217-bb92bc00-d140-11eb-93eb-2f0227d04cc4.png)
@@ -106,17 +116,28 @@ c. Reduces Training Time: Less data means that algorithms train faster.
 
 7.3 DATA folder: Consist of training_csv and test_csv file.
 
+
 **8. lIBRARY USED**
-PANDAS
-NUMPY
-sklearn.preprocessing.StandardScaler
-sklearn.model_selection.StratifiedKFold
-sklearn.metrics.classification_report
-sklearn.metrics
-TENSORFLOW
-KERAS
-SEABORN
-MATPLOTLIB
+
+a. PANDAS
+
+b. NUMPY
+
+c. sklearn.preprocessing.StandardScaler
+
+d. sklearn.model_selection.StratifiedKFold
+
+e. sklearn.metrics.classification_report
+
+f. sklearn.metrics
+
+g. TENSORFLOW
+
+h. KERAS
+
+i. SEABORN
+
+j. MATPLOTLIB
 
 
  
