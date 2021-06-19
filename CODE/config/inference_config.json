@@ -1,0 +1,6 @@
+{
+"train_path" : "C:/Users/katsh/OneDrive/Desktop/Arya.ai/DATA/training_set.csv",
+"test_path" : "C:/Users/katsh/OneDrive/Desktop/Arya.ai/DATA/test_set.csv",
+"save_model_path" : "C:/Users/katsh/OneDrive/Desktop/Arya.ai/MODEL/my_model.h5",
+"checkpoint_path" : "C:/Users/katsh/OneDrive/Desktop/Arya.ai/MODEL/ckpt"
+}
