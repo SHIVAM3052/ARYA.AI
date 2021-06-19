@@ -56,6 +56,15 @@ Remove less redundant features to overcome cluster overlapping.
 
 ![XGBOOST for Binary Classification Model](https://user-images.githubusercontent.com/60669591/122647623-a28b0a80-d142-11eb-82fd-b3cc302fefc2.jpg)
 
+**6. AtLast, Used Simple FCN model and Simple FCN model  with StratifiedKfold (n = 5)**
+
+6.1 Training Results and Classification report of both models were mentioned below.
+
+6.2 we can compare the results with theirs images.
+
+![simple ANN k-fold](https://user-images.githubusercontent.com/60669591/122647730-470d4c80-d143-11eb-94a6-91691f5d1c44.jpg)
+
+![simple ANN](https://user-images.githubusercontent.com/60669591/122647733-4aa0d380-d143-11eb-900c-372576d7aad8.jpg)
 
 
 
