@@ -56,6 +56,7 @@ Remove less redundant features to overcome cluster overlapping.
 
 ![XGBOOST for Binary Classification Model](https://user-images.githubusercontent.com/60669591/122647623-a28b0a80-d142-11eb-82fd-b3cc302fefc2.jpg)
 
+
 **6. AtLast, Used Simple FCN model and Simple FCN model  with StratifiedKfold (n = 5)**
 
 6.1 Training Results and Classification report of both models were mentioned below.
@@ -68,7 +69,8 @@ Remove less redundant features to overcome cluster overlapping.
 
 ![simple ANN](https://user-images.githubusercontent.com/60669591/122647733-4aa0d380-d143-11eb-900c-372576d7aad8.jpg)
 
-7. In github repository, there are 3 folders
+
+**7. In github repository, there are 3 folders**
 
 7.1 CODE folder: Consist of train.py, eval.py, and CONFIG folder.
 
